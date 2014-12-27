@@ -9,7 +9,7 @@ if (location.hostname == 'www.999dice.com') {
 	function soundz() {
 		window.audio = {};
 		audio["alert"] = new Audio();
-		audio["alert"].src = "https://cdn.rawgit.com/hamboning/999dice-toys/master/codec.wav";
+		audio["alert"].src = "http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3";
 		window.audio["alert"].play();
 		console.log(Date($.now()));
 		return false;
